@@ -1,0 +1,5 @@
+*.swp
+log/*.log
+etc/*.key
+certs/*.key
+certs/*.crt
