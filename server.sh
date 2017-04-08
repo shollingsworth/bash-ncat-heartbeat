@@ -50,7 +50,6 @@ opts+=("--recv-only")
 #opts+=("-vvvv")
 opts+=("--ssl-ciphers ${ciphers}")
 opts+=("--sh-exec '${prog}'")
-#opts+=("--exec '${prog}'")
 cmd="ncat ${opts[@]} ${listen_addy} ${listen_port}"
 echo "${cmd}"
 ${cmd}
